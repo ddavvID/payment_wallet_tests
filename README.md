@@ -12,6 +12,8 @@
 
 ## 測試框架結構
 
+
+```Shell
 以下是本專案的目錄結構：
 /payment_wallet_tests
 ├── tests/
@@ -21,7 +23,7 @@
 ├── utils/
 │ └── api_client.py
 └── conftest.py
-
+```
 
 ### 目錄結構說明
 
@@ -66,8 +68,12 @@
 
 要運行測試，請確保您已安裝所需的庫，然後使用以下命令：
 
+
+```Shell
 pip install -r requirements.txt
 pytest --html=report.html --self-contained-html
+```
+
 
 
 這將生成一個 HTML 格式的報告，以便查看測試結果。
